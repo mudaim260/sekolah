@@ -3,9 +3,9 @@
 require_once "config.php";
 
 $title ="Dasboard - MA Plus Albukhori";
-require_once "bukhori/header.php";
-require_once "bukhori/navbar.php";
-require_once "bukhori/sidebar.php";
+require_once "template/header.php";
+require_once "template/navbar.php";
+require_once "template/sidebar.php";
 
 
 ?>
@@ -82,7 +82,7 @@ require_once "bukhori/sidebar.php";
 
     <?php
 
-    require_once "bukhori/footer.php";
+    require_once "template/footer.php";
 
 
     ?>

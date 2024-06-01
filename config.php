@@ -11,4 +11,4 @@ $koneksi = mysqli_connect("localhost","root","","db_sekolah");
 //.}
 
 // url induk
-$main_url = "https://localhost/sekolah/";
+$main_url = "http://localhost/sekolah/";
