@@ -1,0 +1,14 @@
+<?php
+
+// buat koneksi
+$koneksi = mysqli_connect("localhost","root","","db_sekolah");
+
+// cek koneksi
+// if (mysqli_connect_errno()){
+//....    echo "Gagal Koneksi ke database";
+//.}. else. {
+ //.....   echo ."berhasil koneksi";
+//.}
+
+// url induk
+$main_url = "https://localhost/sekolah/";
